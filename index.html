@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Filip Mazurek</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Filip Mazurek skrzynkafilipa@gmail.com">
+		<meta name="keywords" content="filip mazurek, Filip Mazurek, Mazurek, junior front-end developer, junior front-end developer wroclaw, junior front-end developer wrocław, junior web-developer, strony wrocław, strony internetowe, web development, firmowe, wroclaw, wrocław">
+
+		<link rel="stylesheet" href="https://cdnjs.com/libraries/normalize">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:500,700&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<link rel="stylesheet" href="./aos-master/dist/aos.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div>
+			<div id="home" class="jumbotron">
+				<!-- navigation -->
+				<div class="navigation container">
+					<div class="button_container" id="toggle">
+						<span class="top"></span>
+						<span class="middle"></span>
+						<span class="bottom"></span>
+					</div>
+					<div class="overlay" id="overlay">
+						<nav class="overlay-menu">
+							<ul>
+								<li><a a onclick="$('#home').animatescroll();" href="#home">Home</a></li>
+								<li><a a onclick="$('#works').animatescroll();" href="#works">Projekty</a></li>
+								<li><a a onclick="$('#bio').animatescroll();" href="#bio">O mnie</a></li>
+								<li><a a onclick="$('#contact').animatescroll();" href="#contact">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>	
+				<!-- jumbotron -->
+				<div data-aos="fade-up" id="jumbotron">
+					<h1>Cześć! Jestem <span>Filip Mazurek</span>.
+					<br>Funkcjonalność aplikacji i wygląd idą ze sobą w <span>parze</span>.</h1>
+				</div>
+				<div class="jumbotron-button">
+					<a onclick="$('#works').animatescroll();" href="#works"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- projects -->
+		<section id="works" class="works">
+			<div class="container">
+				<div data-aos="fade-right">
+					<h2>Projekty</h2>
+					<hr>
+				</div>
+				<div data-aos="fade-up" class="row">
+					<!-- responsywna1 -->
+					<div class="responsywna1">
+						<img src="images/responsywna1.jpg" alt="project responsywna1">
+						<div class="description">
+							<h2>Projekt responsywna1</h2>
+							<p>Projekt strony responsywnej</p>
+							<a href="https://emzur.github.io/responsywna1/">preview</a>
+							<a href="https://github.com/emzur/responsywna1">code</a>
+						</div>
+					</div>
+				</div>
+				<div data-aos="fade-up" class="row">
+					<!-- responsywna2 -->
+					<div class="responsywna2">
+						<img src="images/responsywna2.jpg" alt="project responsywna2">
+						<div class="description">
+							<h2>Projekt responsywna2</h2>
+							<p>Projekt strony responsywnej</p>
+							<a href="https://emzur.github.io/responsywna2/">live preview</a>
+							<a href="https://github.com/emzur/responsywna2">code review</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- kanban -->
+					<div data-aos="fade-down" class="kanban-board" >
+						<img src="images/kanban.jpg" alt="kanban board">
+						<div class="description">
+							<h2>Tablica Kanban</h2>
+							<p>Kontrola zadań do wykonania</p>
+							<a href="https://emzur.github.io/kanban/">preview</a>
+							<a href="https://github.com/emzur/kanban">code</a>
+						</div>
+					</div>
+
+					<!-- gra -->
+					<div data-aos="fade-up" class="rock-paper-scissors">
+						<img src="images/gra.jpg" alt="rock paper scissors">
+						<div class="description">
+							<h2>Papier Kamień Nożyce</h2>
+							<p>Gra w papier kamień nożyce</p>
+							<a href="https://emzur.github.io/gra/">preview</a>
+							<a href="https://github.com/emzur/gra">code</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- kraje -->
+					<div data-aos="fade-up" class="country-search-engine">
+						<img src="images/kraje.jpg" alt="country search engine">
+						<div class="description">
+							<h2>Wyszukiwarka krajów</h2>
+							<p>Sprawdź podstawowe informacje o krajach</p>
+							<a href="https://emzur.github.io/kraje/">preview</a>
+							<a href="https://github.com/emzur/kraje">code</a>
+						</div>
+					</div>
+					<!-- losowanie -->
+					<div data-aos="fade-down" class="quote-machine">
+						<img src="images/losowanie.jpg" alt="quote machine">
+						<div class="description">
+							<h2>Przysłowie na dziś</h2>
+							<p>Program losujący przysłowia</p>
+							<a href="https://emzur.github.io/losowanie/">preview</a>
+							<a href="https://github.com/emzur/losowanie">code</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- o mnie -->
+		<section id="bio">
+			<div class="container">
+				<div data-aos="fade-right">
+					<h2>O mnie</h2>
+					<hr>
+				</div>
+				<div data-aos="fade-up" class="bio">
+					<div class="about">
+						<h3>Krótko i na temat</h3>
+						<p>Cześć! Jestem Filip i szukam pracy jako junior front-end developer.<br>
+							Jestem samoukiem i bawi mnie tworzenie fajnych aplikacji. W styczniu 2017 postanowiłem, że poukładam sobie wiedzę i tak w kwietniu skończyłem front-end development bootcamp. Nadal jestem pod wrażeniem jakie daje JavaScript przy tworzeniu stron i appek.<br>
+							Mam nadzieję, że moja praca nie pójdzie na marne i znajdzie się jakaś firma, która będzie chciała ze mną współpracować.</p>
+					</div>
+					<div class="technologies">
+						<h3>Technologie</h3>
+						<p>Poznane</p>
+						<i class="devicon-html5-plain-wordmark"></i>
+						<i class="devicon-css3-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>
+						<i class="devicon-jquery-plain-wordmark"></i>
+						<i class="devicon-bootstrap-plain-wordmark"></i>
+						<i class="devicon-sass-original"></i>
+						<i class="devicon-grunt-line-wordmark"></i>
+						<i class="devicon-git-plain-wordmark"></i>
+					</div>
+					<img src="images/Filip.jpg" alt="photo of FIlip">
+				</div>
+			</div>
+		</section>
+		<!-- kontakt -->
+		<section id="contact">
+			<div class="container">
+				<div data-aos="fade-right">
+					<h2>Kontakt</h2>
+					<hr>
+				</div>
+				<div data-aos="fade-up" class="contact">
+					<div class="mail-phone">
+						<p>napisz do mnie</p>
+						<a href="mailto:skrzynkafilipa@gmail.com">skrzynkafilipa@gmail.com</a>
+						<p>lub zadzwoń</p>
+						<span>+48 502 520 241</span>
+					</div>
+					<div class="social">
+						<a href="https://github.com/emzur"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/filip-mazurek-417a7884/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						<a href="images/filip-mazurek.pdf"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="./aos-master/dist/aos.js"></script>
+		<script src="./animatescroll/animatescroll.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
